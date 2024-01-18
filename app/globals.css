@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --timing: 400ms;
+  --rotation: 20deg;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #f9fafa;
+}
+
+@keyframes fade-in {
+  0%,
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animacionCirculo {
+  animation: fade-in 1s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.perspective {
+  perspective: 300px;
+}
+
+.posicionamiento {
+  left: calc(100% - 400px);
+  top: calc(100% - 90px);
+}
+
+@media screen and (max-width: 1024px) {
+  .posicionamiento {
+    left: calc(100% - 300px);
+    top: calc(100% - 50px);
+  }
+}
