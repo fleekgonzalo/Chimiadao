@@ -44,7 +44,7 @@ const slider2 = [
   },
 ];
 
-export default function index({ isMobile }) {
+const SlidingImages = ({ isMobile }) => {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -118,4 +118,6 @@ export default function index({ isMobile }) {
       </motion.div>
     </div>
   );
-}
+};
+
+export default SlidingImages;

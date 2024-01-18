@@ -5,8 +5,7 @@ import {
   motion,
   useTransform,
 } from 'framer-motion';
-
-export default function index({ isMobile }) {
+const FinalSection = ({ isMobile }) => {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -89,4 +88,6 @@ export default function index({ isMobile }) {
       </div>
     </motion.div>
   );
-}
+};
+
+export default FinalSection;

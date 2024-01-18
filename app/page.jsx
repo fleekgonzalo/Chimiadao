@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import Lenis from '@studio-freight/lenis';
 import Contact from './components/Contact';
 import Description from './components/Description';
-import Sliding from './components/SlidingImages';
+import SlidingImages from './components/SlidingImages';
 import useDimension from '@/hooks/useDimension';
 import FinalSection from './components/FinalSection';
 
@@ -33,7 +33,7 @@ const App = () => {
       <Description isMobile={isMobile} />
       <AboutUs isMobile={isMobile} />
       <Contact isMobile={isMobile} />
-      <Sliding isMobile={isMobile} />
+      <SlidingImages isMobile={isMobile} />
       <FinalSection isMobile={isMobile} />
     </div>
   );
