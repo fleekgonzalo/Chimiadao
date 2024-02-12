@@ -6,7 +6,7 @@ const Hero = () => {
     >
       <div className='absolute top-0 left-0 z-0 w-full h-full overflow-hidden'>
         <video
-          src='./images/HeroOriginal.mp4'
+          src='/images/HeroOriginal.mp4'
           autoPlay
           muted
           playsInline
