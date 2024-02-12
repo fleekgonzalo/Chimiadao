@@ -78,12 +78,10 @@ const SlidingImages = ({ isMobile }) => {
               className='w-1/4 h-[40vw] lg:h-[20vw] flex items-center justify-center'
             >
               <div className='relative w-full h-full'>
-                <Image
-                  fill={true}
+                <img
                   alt={'image'}
-                  src={`/images/${project.src}`}
-                  sizes='(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw'
-                  className='object-cover '
+                  src={`./images/${project.src}`}
+                  className='object-cover h-full lg:h-auto lg:-my-20 '
                 />
               </div>
             </div>
@@ -104,12 +102,10 @@ const SlidingImages = ({ isMobile }) => {
                 key={index}
                 className='relative w-full h-full'
               >
-                <Image
-                  fill={true}
+                <img
                   alt={'image'}
-                  src={`/images/${project.src}`}
-                  sizes='(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw'
-                  className='object-cover '
+                  src={`./images/${project.src}`}
+                  className='object-cover h-full lg:h-auto '
                 />
               </div>
             </div>
