@@ -2,9 +2,10 @@
 const nextConfig = {};
 
 module.exports = {
-  exportTrailingSlash: true,
+  trailingSlash: true,
   images: {
     domains: ['cdn.devdojo.com'],
     // Add any other domains if needed
   },
+  output: 'export',
 };
