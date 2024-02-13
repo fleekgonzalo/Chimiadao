@@ -48,7 +48,7 @@ const AboutUs = ({ isMobile }) => {
       >
         <div className='h-full py-5 w-full flex flex-col justify-center gap-6 items-center'>
           <img
-            src='./images/imagesweb (2).webp'
+            src='/images/imagesweb (2).webp'
             alt='img'
             className=' object-cover max-h-[300px] lg:max-h-[200px] rounded-lg w-full '
           />
@@ -74,7 +74,7 @@ const AboutUs = ({ isMobile }) => {
       >
         <div className='h-full py-5 w-full flex flex-col justify-center gap-6 items-center'>
           <img
-            src='./images/imagesweb.webp'
+            src='/images/imagesweb.webp'
             alt='img'
             className=' object-cover max-h-[300px] lg:max-h-[200px] rounded-lg w-full'
           />
@@ -100,7 +100,7 @@ const AboutUs = ({ isMobile }) => {
       >
         <div className='h-full py-5 w-full flex flex-col justify-center gap-6 items-center'>
           <img
-            src='./images/imagesweb (4).webp'
+            src='/images/imagesweb (4).webp'
             alt='img'
             className=' object-cover max-h-[300px] lg:max-h-[200px] rounded-lg w-full'
           />

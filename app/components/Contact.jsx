@@ -27,7 +27,7 @@ const Contact = ({ isMobile }) => {
     >
       <div className='card lg:card-side w-full lg:w-[80%] shadow-xl'>
         <figure className='min-w-[300px]'>
-          <img src='./images/image (5).webp' alt='Album' />
+          <img src='/images/image (5).webp' alt='Album' />
         </figure>
         <div className='card-body px-0 py-8 lg:p-[2rem] text-white '>
           <h2 className='card-title text-lg lg:text-2xl'>

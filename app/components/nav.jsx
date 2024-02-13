@@ -79,7 +79,7 @@ const Nav = () => {
           {section !== 0 ? (
             <div className=' w-full transition-opacity flex duration-300 gap-3 sm:gap-4 opacity-1 backdrop-blur-xl fixed top-0 bg-[#000000b3] lg:left-0 py-8   '>
               <img
-                src='./images/ChimiaDAO Logo - PNG - By Dcmat copy.webp'
+                src='/images/ChimiaDAO Logo - PNG - By Dcmat copy.webp'
                 alt='logo'
                 className='h-10 w-10 sm:h-12 sm:w-12 ml-[10px] sm:ml-[11%]'
               />
@@ -98,7 +98,7 @@ const Nav = () => {
           ) : (
             <div className='w-full transition-opacity flex duration-300 gap-3 sm:gap-4 opacity-0  backdrop-blur-xl fixed top-0 bg-[#000000b3] lg:left-0 py-8 '>
               <img
-                src='./images/ChimiaDAO Logo - PNG - By Dcmat copy.webp'
+                src='/images/ChimiaDAO Logo - PNG - By Dcmat copy.webp'
                 alt='logo'
                 className='h-10 w-10 lg:h-12 lg:w-12 ml-[11%]'
               />
@@ -116,12 +116,12 @@ const Nav = () => {
             </div>
           )}
           <img
-            src='./images/Shade.webp'
+            src='/images/Shade.webp'
             alt='sombra'
             className='min-h-[100vh] w-full object-cover'
           />
           <img
-            src='./images/Logo-ChimiaDAO---Shade.webp'
+            src='/images/Logo-ChimiaDAO---Shade.webp'
             alt=''
             className='min-h-[100vh] w-full object-cover absolute animacionCirculo'
           />
